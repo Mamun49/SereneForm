@@ -1,0 +1,82 @@
+{
+  "RootNamespace": "SereneForm",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Admission",
+          "Identifier": "AddForm",
+          "Module": "Admission",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.City",
+          "Identifier": "City",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Country",
+          "Identifier": "Country",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.FollowUp",
+          "Identifier": "FollowUp",
+          "Module": "Admission",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Gals",
+          "Identifier": "Gals",
+          "Module": "Admission",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Investigation",
+          "Identifier": "Investigation",
+          "Module": "Admission",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.PusCell",
+          "Identifier": "PusCell",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.RealOthers",
+          "Identifier": "RealOthers",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Upozela",
+          "Identifier": "Upozela",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "reg.Form",
+          "Identifier": "Form",
+          "Module": "Registration",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.2.4.0"
+  }
+}
